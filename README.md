@@ -49,7 +49,7 @@ SQL examples for each component of CRUD:
 
 ###CREATE
 ```sql
-CREATE table table_name (id serial primary key, name varchar);
+INSERT INTO "table_name" (name) VALUES ('new_row');
 ```
 
 ###READ

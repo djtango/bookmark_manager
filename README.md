@@ -54,15 +54,15 @@ CREATE table table_name (id serial primary key, name varchar);
 
 ###READ
 ```sql
-SELECT * FROM table_name
+SELECT * FROM table_name;
 ```
 
 ###UPDATE
 ```sql
-UPDATE table_name SET name = new_name WHERE id = 1
+UPDATE table_name SET name = new_name WHERE id = 1;
 ```
 
 ###DELETE
 ```sql
-DELETE * FROM table_name
+DELETE * FROM table_name;
 ```

@@ -39,5 +39,30 @@ By comparison, NoSQL (Non-Relational Structured Query Language) is not restricte
 - Key-Value
 - Graph
 - Multi-model
-
 These models introduce some flexibility into data storage and compensate for some of the short-comings of the Relational Database Model. Some advantages include improved horizontal scaling and simpler designs, which may prove problematic to implement in a Relational Database (e.g. a hierarchy).
+
+
+##CRUD (Create Read Update Delete)
+CRUD represents the four basic functions associated with managing databases. SQL (Structured Query Language) is a language purpose-built for interacting with databases, and facilitates carrying out CRUD actions. 
+
+SQL examples for each component of CRUD:
+
+###CREATE
+```sql
+CREATE table table_name (id serial primary key, name varchar);
+```
+
+###READ
+```sql
+SELECT * FROM table_name
+```
+
+###UPDATE
+```sql
+UPDATE table_name SET name = new_name WHERE id = 1
+```
+
+###DELETE
+```sql
+DELETE * FROM table_name
+```
